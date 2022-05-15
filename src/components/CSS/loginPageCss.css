@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+body {
+    margin: 0px;
+    background: rgb(195,200,199);
+background: linear-gradient(90deg, rgba(195,200,199,1) 0%, rgba(142,152,152,0.5219129888283438) 15%, rgba(208,210,216,0) 100%);
+}
+
+.MainDiv {
+    width: 60%;
+    height: 500px;
+    margin: 50px auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 40px;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.logoTitle{
+    color: rgb(53, 85, 64);
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+}
+
+.logodetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    font-style: italic;
+    height: 40px;
+}
+
+.MainTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TitleWords{
+    font-family: serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.formElements > form > input,label,button{
+    display: block;
+    font-family: 'Macondo', cursive;
+    width: 100%;
+}
+
+.formElements > form > label{
+    font-size: 12px;
+}
+
+.formElements > form > input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 1px 0px;
+    outline: none;
+}
+
+.WelcomeText{
+    font-size: 30px;
+    font-family: 'Macondo', cursive;
+}
+
+.formElements{
+    width: 40%;
+}
+
+.formElements > form > button {
+    margin-top: 15px;
+}
