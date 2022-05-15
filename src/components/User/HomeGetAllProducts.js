@@ -1,6 +1,5 @@
 import { useEffect, useState, useContext } from "react";
 import axios from "axios";
-import Header from "../header";
 import ProductItem from "./productItem";
 import cardCtx from "../context";
 
@@ -8,7 +7,7 @@ import "../CSS/ProductMainPage.css";
 
 function GetProductsByUser() {
     const [products, setProducts] = useState([]);
-    const [cart, setCart] = useContext(cardCtx);
+    const [setCart] = useContext(cardCtx);
 
     useEffect(() => {
         const token = localStorage.getItem("token");

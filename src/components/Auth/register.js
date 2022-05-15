@@ -16,6 +16,7 @@ function Register() {
         e.preventDefault();
         const data = await axios.post("https://ecomm-app-backend-demo.herokuapp.com/user/create", {email, password, mobNo, name})
         console.log(data);
+        console.log(navigate)
     }
 
     return(

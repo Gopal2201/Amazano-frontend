@@ -1,6 +1,6 @@
 import './App.css';
-import { useContext, useEffect, useState } from 'react';
-import { Route, Routes, Switch } from 'react-router-dom';
+import {useState } from 'react';
+import { Route, Routes} from 'react-router-dom';
 import axios from 'axios';
 
 import Home from './components/home';

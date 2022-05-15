@@ -2,7 +2,7 @@ import { useContext } from "react";
 import cardCtx from "../context";
 
 function CartItem({ item }) {
-    const [cart, updateCart, currencyFormatter] = useContext(cardCtx);
+    const [updateCart, currencyFormatter] = useContext(cardCtx);
     return (
         <>
             <div className="Cart-container">

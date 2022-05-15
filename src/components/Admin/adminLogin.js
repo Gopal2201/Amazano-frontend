@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../header";
@@ -12,6 +11,7 @@ function Login() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         console.log("admin")
+        console.log(navigate)
         // const {data} = await axios.post("http://localhost:4000/admin/login", {email, password})
         // localStorage.setItem("token", data.token);
         // navigate("/");

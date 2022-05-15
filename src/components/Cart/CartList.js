@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext} from "react";
 import cardCtx from "../context";
 import Header from "../header";
 import CartItem from "./CartItem";
@@ -6,12 +6,11 @@ import CartItem from "./CartItem";
 import * as React from 'react';
 import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Home from "../home";
 
 import "../CSS/CheckOutCartPage.css"
 
 function CartList() {
-    const [cart, updateCart, currencyFormatter] = useContext(cardCtx);
+    const [cart, currencyFormatter] = useContext(cardCtx);
     const total = cart.map((item) => item.quantity * item.price).reduce((sum, item) => sum + item, 0);
     const cartQty = cart.reduce((sum, item) => item.quantity + sum, 0);
     return (

@@ -35,7 +35,7 @@ function GetProducts() {
         try {
             const response = await axios.delete(`http://localhost:4000/admin/deleteproduct/${id}`);
             let data1 = [...products];
-            data1 = data1.filter((item) => item._id != id)
+            data1 = data1.filter((item) => item._id !== id)
             console.log(response);
             setProducts(data1);
         }

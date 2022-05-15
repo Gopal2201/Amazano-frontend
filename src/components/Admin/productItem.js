@@ -1,7 +1,7 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import cardCtx from "../context";
 function ProductItem({ item, deletePost, editPost }) {
-    const [cart, updateCart, currencyFormatter] = useContext(cardCtx);
+    const [currencyFormatter] = useContext(cardCtx);
 
     return (
         <>
