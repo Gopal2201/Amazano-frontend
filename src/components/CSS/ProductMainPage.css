@@ -1,0 +1,43 @@
+body {
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.Main-Container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Product-Img {
+    height: 200px;
+    width: 160px;
+}
+
+.Product-container {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    box-shadow: 1px 1px 5px;
+}
+
+.Product-Details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.Img-Button {
+    border: 0px;
+}
+
+.Add-To-Cart-Button {
+    border: 2px solid black;
+}

@@ -1,0 +1,175 @@
+body {
+    background-color: whitesmoke;
+    height: 100%;
+}
+.Cart-Img {
+    height: 160px;
+    width: 160px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 12px;
+    border-radius: 7px;
+}
+
+.Cart-container {
+    display: flex;
+}
+
+.Cart-Price {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.Total-Cart {
+    padding: 0px 20px 5px 20px;
+    background-color: white;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 3px grey;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.Shopping-Cart {
+    margin: 0px;
+    padding: 0px;
+    font-size: 36px;
+}
+
+.dummy-price {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.Cart-Heading {
+    display: flex;
+}
+.Cart-Name {
+    margin: 0px;
+}
+
+.Cart-Company {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.CartAddRemove {
+    margin-top: 68px;
+}
+.TotalAmtOnCart {
+    display: flex;
+}
+
+.SubTotal {
+    margin-left: auto;
+}
+
+.Main-cart{
+    display: flex;
+    margin: 25px;
+    height: 100%;
+}
+
+.side-Cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.Side-Top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 3px grey;
+    height: auto;
+    padding: 20px 10px;
+}
+
+.Free-Delivery-content {
+    border: 1px solid black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+.Side-SubTotal {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#EMI-Option {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Side-bottom {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 3px grey;
+    height: 317px;
+    margin-top: 20px;
+}
+
+.Side-Card-Redirection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+    text-decoration: none;
+    border: 0px;
+    background-color: inherit;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.Side-Card-Redirection-Img{
+    background-color: white;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 3px grey;
+    margin: 4px;
+    width: 80px;
+    height: 80px;    
+}
+
+.Amazon-Disclimar {
+    background-color: white;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.Back-Home-Button {
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.Cart-Item-Details {
+    margin-left: 10px;
+}
+
+.Proceed-to-Buy-Button {
+    margin: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Main-Total-Cart {
+    width: 100%;
+}

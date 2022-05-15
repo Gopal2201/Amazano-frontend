@@ -1,0 +1,50 @@
+/* .App {
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  border: 0px;
+  background-color: whitesmoke;
+  font-family: Roboto;
+}
+
+.Phone-Name {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.Phone-Company {
+  font-size: 32px;
+  color: grey;
+  margin-top: 0px;
+}
+
+.Phone-Img {
+  height: 100px;
+  object-fit: contain;
+}
+
+.Phone-container {
+  background-color: white;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+  display: flex;
+}
+
+.CartAddRemove{
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.TotalAmtOnCart{
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.CheckOutSection {
+  display: flex;
+  flex-direction: column;
+} */
